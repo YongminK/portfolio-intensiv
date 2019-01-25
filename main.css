@@ -1,0 +1,68 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.menu{
+	width: 100%;
+	max-width: 1172px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 18px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu-logo{
+	display: flex;
+	align-items: center;
+}
+.name{
+	display: block;
+	font-size: 16px;
+	font-weight: 800;
+}
+.discription{
+	margin-left: 9px;
+}
+.avatar{
+	width: 57px;
+	height: 57px;
+	background-image: url(https://pp.userapi.com/c846217/v846217367/c03a0/YR6c3rlwfrY.jpg);
+	background-size: 120%;
+	border-radius: 50%;
+}
+.menu-list{
+	display: flex;
+	align-items: center;
+}
+.menu-list a{
+	display: inline-block;
+	text-decoration: none;
+	color: #2b2a2c;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-right: 34px;
+}
+.menu-list a:after{
+	display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #2b2a2c;  
+  transition: width .3s ease-in-out;
+  transform:translateX(-50%);
+  left:50%;
+  position:relative;
+}
+.menu-list a:hover:after,
+.menu-list a:focus:after {
+    width: 100%;
+}
+.menu-button{
+	text-transform: uppercase;
+	font-weight: 800;
+	background-color: transparent;
+	font-size: 14px;
+	border: 2px solid #2b2a2c;
+	border-radius: 19px;
+	padding: 13px 22px;
+}
