@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
-
+    margin: 0;
 }
 img{
     max-width: 100%;
@@ -158,7 +158,7 @@ img{
 }
 .tribute-page{
     background: url("http://www.picshare.ru/uploads/190126/mIg5IyT109.jpg") center no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .project-card_info{
     padding: 19px 13px;
@@ -178,10 +178,7 @@ img{
     margin-top: 10px;
 
 }
-.project-card a{
-    display: block;
-    text-decoration: none;
-}
+
 .survey-form{
     text-align: center;
     line-height: 300px;
@@ -229,4 +226,89 @@ img{
     line-height: 300px;
     text-transform: uppercase;
     font-weight: 800;
+}
+.footer{
+    background-color: #2b2a2c;
+    padding: 20px 0;
+    color: #8d8d8e;
+}
+.footer a{
+    color: #8d8d8e;
+    text-decoration: none;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    display: flex;
+    align-items: center;
+}
+.copyright{
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid #413f41;
+    font-size: 14px;
+}
+.footer-social_link{
+    font-size: 20px;
+    margin-right: 13px;
+}
+.footer-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-menu a{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.footer-button{
+    background-color: transparent;
+    font-size: 14px;
+    border: 2px solid #8d8d8e;
+    border-radius: 19px;
+    padding: 8px 22px;
+}
+@media (max-width: 1200px){
+    .container{
+        width: 965px;
+    }
+    .project-card{
+        width: 48%;
+ 
+    }
+    .project-cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 992px){
+    .container{
+        width: 760px;
+    }
+    .project-card{
+        width: 48%;
+    }
+    .project-cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        width: 95%;
+    }
+    .project-card{
+        width: 95%;
+        margin: 30px auto;
+    }
+    .project-cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
