@@ -196,10 +196,7 @@ img {
     height: 300px;
 }
 
-.tribute-page {
-    background: url("http://www.picshare.ru/uploads/190126/mIg5IyT109.jpg") center no-repeat;
-    background-size: 100%;
-}
+
 
 .project-card_info {
     padding: 19px 13px;
@@ -221,11 +218,14 @@ img {
     margin-top: 10px;
 }
 
+.tribute-page {
+    background: url("http://www.picshare.ru/uploads/190126/mIg5IyT109.jpg") center no-repeat;
+    background-size: cover;
+}
+
 .survey-form {
-    text-align: center;
-    line-height: 300px;
-    text-transform: uppercase;
-    font-weight: 800;
+    background: url("http://www.picshare.ru/uploads/190130/4xA9hvOKlo.jpg") center no-repeat;
+    background-size: cover;
 }
 
 .landing-page {
@@ -334,20 +334,11 @@ img {
     .container {
         width: 965px;
     }
-
-    .project-card {
-        width: 45%;
-    }
-
 }
 
 @media (max-width: 992px) {
     .container {
         width: 760px;
-    }
-
-    .project-card {
-        width: 45%;
     }
 }
 
@@ -355,22 +346,14 @@ img {
     .container {
         width: 95%;
     }
-
     .menu-list a {
         display: none;
     }
-
     .descriprion_small {
         width: 95%;
     }
-
     .hero {
         padding-bottom: 550px;
         padding-top: 30px;
-    }
-
-    .project-card {
-        width: 95%;
-        margin: 30px auto;
     }
 }
