@@ -229,10 +229,8 @@ img {
 }
 
 .landing-page {
-    text-align: center;
-    line-height: 300px;
-    text-transform: uppercase;
-    font-weight: 800;
+    background: url("http://www.picshare.ru/uploads/190130/V6KLv4V4z7.jpg") center no-repeat;
+    background-size: cover;
 }
 
 .technical-documentation-page {
