@@ -7,7 +7,7 @@ img {
     max-width: 100%;
 }
 
-.container {
+.container-my {
     width: 100%;
     max-width: 1172px;
     margin-left: auto;
@@ -169,12 +169,6 @@ img {
     padding: 97px 0;
 }
 
-.project-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
 
 .project-link {
     display: block;
@@ -328,30 +322,19 @@ img {
     padding: 8px 22px;
 }
 
-@media (max-width: 1200px) {
-    .container {
-        width: 965px;
-    }
+// Малые девайсы («ландшафтные телефоны», >= 576px)
+@media (min-width: 576px) {
 }
 
-@media (max-width: 992px) {
-    .container {
-        width: 760px;
-    }
+// Средние девайсы («таблетки», >= 768px)
+@media (min-width: 768px) {
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: 95%;
-    }
-    .menu-list a {
-        display: none;
-    }
-    .descriprion_small {
-        width: 95%;
-    }
-    .hero {
-        padding-bottom: 550px;
-        padding-top: 30px;
-    }
+// Большие девайсы (десктопы, >= 992px)
+@media (min-width: 992px) {
+}
+
+// Экстрабольшие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) {
+
 }
